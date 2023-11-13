@@ -1,8 +1,10 @@
 ﻿using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.Text.Editor.OptionsExtensionMethods;
+using System;
 using System.Globalization;
 
+#if false
 namespace Microsoft.VisualStudio.Editor.EmacsEmulation.Commands
 {
     /// <summary>
@@ -156,3 +158,4 @@ namespace Microsoft.VisualStudio.Editor.EmacsEmulation.Commands
         }
     }
 }
+#endif
